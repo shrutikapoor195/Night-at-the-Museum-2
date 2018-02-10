@@ -19,7 +19,7 @@ public class movementScript : MonoBehaviour {
 	
 	public void OnPointerDown()
     {
-        print("OnPointerDown Called!");
+        //print("OnPointerDown Called!");
         RaycastHit hit;
 
         if(Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, 100f))
