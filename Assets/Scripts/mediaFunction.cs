@@ -8,7 +8,7 @@ using UnityEngine.Video;
 public class mediaFunction : MonoBehaviour {
 
     public VideoClip videoToPlay;
-    public AudioSource audioSource;
+    private AudioSource audioSource;
     public GameObject player;
 
     private VideoPlayer videoPlayer;
@@ -21,16 +21,25 @@ public class mediaFunction : MonoBehaviour {
 
         Application.runInBackground = true;
         videoPlayer.source = VideoSource.VideoClip;
+
+        videoPlayer.audioOutputMode = VideoAudioOutputMode.AudioSource;
+        videoPlayer.EnableAudioTrack(0, true);
+        videoPlayer.SetTargetAudioSource(0, audioSource);
+
         videoPlayer.clip = videoToPlay;
+
+        videoPlayer.Prepare();
     }
 	
 	// Update is called once per frame
 	void Update () {
         float distance = Vector3.Distance(this.transform.position, player.transform.position);
-        if(distance < 3.0f)
+        if(distance < 3.0f && videoPlayer.isPrepared)
         {
             videoPlayer.Play();
             audioSource.Play();
+            print(audioSource.name);
+            print(audioSource.clip.name);
         }
         if(distance > 3.0f)
         {

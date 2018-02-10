@@ -1608,7 +1608,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!23 &245267229
 MeshRenderer:
@@ -1692,7 +1692,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &249298986
 Transform:
@@ -2696,7 +2696,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoToPlay: {fileID: 32900000, guid: c8b865b4ea328df41ba0e826e965ba1e, type: 3}
-  audioSource: {fileID: 618493331}
   player: {fileID: 1074591089}
 --- !u!1001 &622325682
 Prefab:
@@ -2822,6 +2821,10 @@ Prefab:
     - target: {fileID: 464024, guid: 60245ec223e971646a2722ebbca35ad3, type: 2}
       propertyPath: m_LocalScale.z
       value: 5.52612
+      objectReference: {fileID: 0}
+    - target: {fileID: 105808, guid: 60245ec223e971646a2722ebbca35ad3, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 60245ec223e971646a2722ebbca35ad3, type: 2}
@@ -3062,7 +3065,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3165,7 +3168,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!108 &791458134
 Light:
@@ -3177,7 +3180,7 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 5
+  m_Intensity: 3
   m_Range: 10
   m_SpotAngle: 57
   m_CookieSize: 10
@@ -3196,7 +3199,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3209,13 +3212,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 791458133}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.13000011, y: 1.675, z: 0.025300026}
+  m_LocalRotation: {x: 0.69777435, y: -0.114503264, z: -0.114503264, w: 0.69777435}
+  m_LocalPosition: {x: 0.492, y: 1.675, z: 0.025300026}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1429365106}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 108.638, y: 89.99999, z: 89.99999}
 --- !u!1 &791826169
 GameObject:
   m_ObjectHideFlags: 0
@@ -3229,7 +3232,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &791826170
 Transform:
@@ -3432,6 +3435,10 @@ Prefab:
       propertyPath: m_Name
       value: info_panel (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 105808, guid: 60245ec223e971646a2722ebbca35ad3, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 60245ec223e971646a2722ebbca35ad3, type: 2}
   m_IsPrefabParent: 0
@@ -3595,7 +3602,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &849647175
 Transform:
@@ -3845,7 +3852,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoToPlay: {fileID: 32900000, guid: 9932c9306e76ed74083186f2d1585937, type: 3}
-  audioSource: {fileID: 853397996}
   player: {fileID: 1074591089}
 --- !u!1001 &853927415
 Prefab:
@@ -4130,7 +4136,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -4244,7 +4250,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &941289856
 Transform:
@@ -4684,7 +4690,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1011027245
 Transform:
@@ -5272,6 +5278,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 5.52612
       objectReference: {fileID: 0}
+    - target: {fileID: 105808, guid: 60245ec223e971646a2722ebbca35ad3, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 60245ec223e971646a2722ebbca35ad3, type: 2}
   m_IsPrefabParent: 0
@@ -5295,7 +5305,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1105366431
 Transform:
@@ -5379,7 +5389,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!108 &1130537960
 Light:
@@ -5391,7 +5401,7 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 5
+  m_Intensity: 3
   m_Range: 10
   m_SpotAngle: 57
   m_CookieSize: 10
@@ -5410,7 +5420,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -5423,13 +5433,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1130537959}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.22, y: 1.675, z: 0.025300026}
+  m_LocalRotation: {x: 0.699272, y: 0.10497031, z: 0.10497031, w: 0.699272}
+  m_LocalPosition: {x: 0.11, y: 1.675, z: -0.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 791826170}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 107.074005, y: -90, z: -90}
 --- !u!1001 &1184041114
 Prefab:
   m_ObjectHideFlags: 0
@@ -5541,7 +5551,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -5876,7 +5886,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoToPlay: {fileID: 32900000, guid: 8c0965375a7e1ac47a0b52bf8e55f546, type: 3}
-  audioSource: {fileID: 1260647557}
   player: {fileID: 1074591089}
 --- !u!1001 &1269950864
 Prefab:
@@ -6170,7 +6179,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -6511,7 +6520,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1429365106
 Transform:
@@ -6906,7 +6915,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoToPlay: {fileID: 32900000, guid: cd04dd3f0f829fe4f9847b4f3e805b84, type: 3}
-  audioSource: {fileID: 1519349785}
   player: {fileID: 1074591089}
 --- !u!1001 &1520102906
 Prefab:
@@ -6967,6 +6975,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 5.5261188
       objectReference: {fileID: 0}
+    - target: {fileID: 105808, guid: 60245ec223e971646a2722ebbca35ad3, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 60245ec223e971646a2722ebbca35ad3, type: 2}
   m_IsPrefabParent: 0
@@ -6986,6 +6998,7 @@ GameObject:
   - component: {fileID: 1535490334}
   - component: {fileID: 1535490333}
   - component: {fileID: 1535490332}
+  - component: {fileID: 1535490336}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -7072,6 +7085,22 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1535490336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1535490330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1156c073149742478887bb24456f32d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalGainDb: 0
+  occlusionMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  quality: 2
 --- !u!1001 &1549295239
 Prefab:
   m_ObjectHideFlags: 0
@@ -7197,6 +7226,10 @@ Prefab:
       propertyPath: m_Name
       value: info_panel (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 105808, guid: 60245ec223e971646a2722ebbca35ad3, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 60245ec223e971646a2722ebbca35ad3, type: 2}
   m_IsPrefabParent: 0
@@ -7224,7 +7257,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1645998793
 Transform:
@@ -7353,6 +7386,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 5.5261216
       objectReference: {fileID: 0}
+    - target: {fileID: 105808, guid: 60245ec223e971646a2722ebbca35ad3, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 60245ec223e971646a2722ebbca35ad3, type: 2}
   m_IsPrefabParent: 0
@@ -7446,7 +7483,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!23 &1664581284
 MeshRenderer:
@@ -7529,7 +7566,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!224 &1668727019
 RectTransform:
@@ -7700,7 +7737,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -8293,7 +8330,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!114 &1973765511
 MonoBehaviour:
@@ -8539,7 +8576,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1989399852
 Transform:
@@ -8814,7 +8851,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2055720592
 Transform:
